@@ -5,7 +5,7 @@ define("ROOT", dirname(__DIR__));
 define("WWW", ROOT . '/public');
 define("APP", ROOT . '/app');
 define("CORE", ROOT . '/gshop/core');
-define("LIBS", ROOT . '/gshop/libs');
+define("LIBS", ROOT . '/gshop/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
 define("LAYOUT", 'default');
