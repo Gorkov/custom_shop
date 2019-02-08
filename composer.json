@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "gshop\\": "gshop/core",
+      "app\\": "app"
+    }
+  },
+  "require": {}
+}
