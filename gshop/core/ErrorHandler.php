@@ -39,14 +39,14 @@ class ErrorHandler
     {
         http_response_code($response);
         if ($response === 404 && !DEBUG) {
-            require_once WWW . 'errors/404.php';
+            require_once WWW . '/errors/404.php';
             die;
         }
 
         if (DEBUG) {
-            require_once WWW . 'errors/develop.php';
+            require_once WWW . '/errors/develop.php';
         } else {
-            require_once WWW . 'errors/prod.php';
+            require_once WWW . '/errors/prod.php';
         }
     }
 }
